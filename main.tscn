@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c342l535h60i2"]
+
+[ext_resource type="PackedScene" uid="uid://day1tfl10v65l" path="res://Game.tscn" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://bijl83ov7ldqh" path="res://obstacle.gd" id="2_0xm2m"]
+
+[node name="Node2D" type="Node2D" unique_id=1962482731]
+
+[node name="Game" parent="." unique_id=277383254 instance=ExtResource("1_ig7tw")]
+position = Vector2(30, 30)
+script = ExtResource("2_0xm2m")
